@@ -1,9 +1,27 @@
-*{
-
-}
-
 .division{
     display: flex;
     flex-direction: column;
     width:25vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+}
+.division label,input,button{
+
+    margin: 0.5rem;
+    max-width: fit-content;
+    text-align: center
+
+}
+
+.table1{
+    border: 1px;
+    align-items: center;
+    margin: auto;
+}
+
+.table1 td{
+    margin:3rem
 }

@@ -21,7 +21,7 @@ function returnAmount() {
 
 
         } else {
-            outputBox.innerText = "Recieved cash should be atleast equal to the Bill Amount"
+            outputBox.innerText = "Received cash should be at least equal to the Bill Amount"
 
 
         }
