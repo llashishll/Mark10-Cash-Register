@@ -16,7 +16,7 @@ function returnAmount() {
 
             var changeAmount = Number(cashReceived.value) - Number(billAmount.value);
 
-            outputBox.innerText = "Amount to be returned : " + changeAmount
+            outputBox.innerText = "Amount to be returned : " + changeAmount.toFixed(2)
             calculateChange(changeAmount);
 
 
