@@ -16,9 +16,14 @@ function returnAmount() {
 
             var changeAmount = Number(cashReceived.value) - Number(billAmount.value);
 
-            outputBox.innerText = "Amount to be returned : " + changeAmount.toFixed(2)
-            calculateChange(changeAmount);
+            if (changeAmount === 0) {
+                outputBox.innerText = "No cash to be returned"
 
+            } else {
+
+                outputBox.innerText = "Amount to be returned : " + changeAmount.toFixed(2)
+                calculateChange(changeAmount);
+            }
 
         } else {
             outputBox.innerText = "Received cash should be at least equal to the Bill Amount"
